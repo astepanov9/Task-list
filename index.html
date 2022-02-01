@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Список задач на сегодня</title>
+  </head>
+  <body>
+    <h1 class="heading">Список задач на сегодня</h1>
+
+    <ol class="task-list">
+      <li class="is-important">Учить JavaScript</li>
+      <li class="is-important">Продолжить учить JavaScript</li>
+      <li>Немного отдохнуть :)</li>
+    </ol>
+
+    <form class="task-form" action="#" method="post">
+      <label class="input-label" for="task-input">Добавьте задачу</label>
+      <input type="text" class="task-input" id="task-input" required>
+      <button type="button" class="task-priority is-important">Важная задача</button>
+      <button type="submit" class="task-add">Добавить в список</button>
+      <button type="button" class="theme-button">Тёмная тема</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
